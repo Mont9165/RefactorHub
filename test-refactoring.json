@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Extract Creation Method",
+    "description": "Extract the object creation process as a method",
+    "referenceUrl": "http://xunitpatterns.com/Creation%20Method.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+},
+{
+  "name": "Extract Creation Method",
+  "description": "Extract the object creation process as a method",
+  "referenceUrl": "http://xunitpatterns.com/Creation%20Method.html",
+  "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+  "after": {
+      "added codes": {
+          "description": "Code fragments which were added",
+          "type": "CodeFragment",
+          "multiple": true
+      }
+  }
+}
+    
+]
