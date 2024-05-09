@@ -6,12 +6,11 @@ RefactorHub is a commit annotator for refactoring.
 
 ## How to Run
 
-1. ```git checkout fix-experiments```
-2. Create OAuth App [here](https://github.com/settings/developers) with `http://localhost:8080` as callback URL, and get `CLIENT_ID` and `CLIENT_SECRET`.
-3. Generate access token [here](https://github.com/settings/tokens), and get `GITHUB_ACCESS_TOKEN`.
-4. Set `CLIENT_ID`, `CLIENT_SECRET`, and `GITHUB_ACCESS_TOKEN` on `.env` file.
-5. `docker-compose up`
-6. Open http://localhost:8080
+1. Create OAuth App [here](https://github.com/settings/developers) with `http://localhost:8080` as callback URL, and get `CLIENT_ID` and `CLIENT_SECRET`.
+2. Generate access token [here](https://github.com/settings/tokens), and get `GITHUB_ACCESS_TOKEN`.
+3. Set `CLIENT_ID`, `CLIENT_SECRET`, and `GITHUB_ACCESS_TOKEN` on `.env` file.
+4. `docker-compose up`
+5. Open http://localhost:8080
 
 ## How to Use
 
