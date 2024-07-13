@@ -17,25 +17,654 @@
             "multiple": true
         }
     }
-},
-{
-  "name": "Extract Creation Method",
-  "description": "Extract the object creation process as a method",
-  "referenceUrl": "http://xunitpatterns.com/Creation%20Method.html",
-  "before": {
+  },
+  {
+    "name": "Create Creation Method",
+    "description": "Create the object creation process as a method",
+    "referenceUrl": "http://xunitpatterns.com/Creation%20Method.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Create Mock Object",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Mock%20Object.html",
+    "before": {
       "removed codes": {
         "description": "Code fragments to be removed",
         "type": "CodeFragment",
         "multiple": true
       }
     },
-  "after": {
+    "after": {
       "added codes": {
-          "description": "Code fragments which were added",
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Verification Method",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Custom%20Assertion.html#:~:text=Variation%3A%20Verification%20Method",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Custom Annotation",
+    "description": "",
+    "referenceUrl": "",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Use TemporaryFolder of @Rule",
+    "description": "",
+    "referenceUrl": "https://junit.org/junit4/javadoc/4.12/org/junit/rules/TemporaryFolder.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Creation Method",
+    "description": "Create the object creation process as a method",
+    "referenceUrl": "http://xunitpatterns.com/Creation%20Method.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
           "type": "CodeFragment",
           "multiple": true
-      }
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Verification Method",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Custom%20Assertion.html#Verification%20Method:~:text=Variation%3A%20Verification%20Method",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Fresh Fixture Setup",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Fresh%20Fixture.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Implicit Setup",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Implicit%20Setup.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Add Assertion",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Assertion%20Method.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Record Test Log",
+    "description": "",
+    "referenceUrl": "",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Setup Class",
+    "description": "",
+    "referenceUrl": "",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Add Explanation Message",
+    "description": "Cited from Automating Test-Specific Refactoring Mining: A Mixed-Method Investigation",
+    "referenceUrl": "",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Assertion Enhancement",
+    "description": "Improve clarity of test results",
+    "referenceUrl": "",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Finder Method",
+    "description": "Encapsulates logic to retrieve specific objects and data needed for testing",
+    "referenceUrl": "http://xunitpatterns.com/Test%20Utility%20Method.html#:~:text=Variation%3A%20Finder%20Method",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Cleanup Method",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Test%20Utility%20Method.html#:~:text=Variation%3A%20Cleanup%20Method",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Surround with try catch",
+    "description": "",
+    "referenceUrl": "",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Dependency Injection",
+    "description": "",
+    "referenceUrl": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "ExtendWith Annotation",
+    "description": "",
+    "referenceUrl": "https://junit.org/junit5/docs/5.8.0/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Nested Annotation",
+    "description": "",
+    "referenceUrl": "https://junit.org/junit5/docs/5.4.1/api/org/junit/jupiter/api/Nested.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Mock Annotation",
+    "description": "",
+    "referenceUrl": "https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mock.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "MockitoSettings Annotation",
+    "description": "",
+    "referenceUrl": "https://www.javadoc.io/static/org.mockito/mockito-junit-jupiter/5.12.0/org/mockito/junit/jupiter/MockitoSettings.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Custom Assertion",
+    "description": "",
+    "referenceUrl": "",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Implicit Teardown",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Implicit%20Teardown.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "SuiteFixture Setup",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/SuiteFixture%20Setup.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "ClassRule Annotation",
+    "description": "",
+    "referenceUrl": "https://junit.org/junit4/javadoc/4.12/org/junit/ClassRule.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Extract Testable Component",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Extract%20Testable%20Component.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Test Helper",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Test%20Helper.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Remove Overzealous Test",
+    "description": "",
+    "referenceUrl": "https://github.com/javaparser/javaparser/commit/7e9e791a41c7c20e6b7cc05e7c46ec842d30250b",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Inline Setup",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Inline%20Setup.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Inline Teardown",
+    "description": "",
+    "referenceUrl": "http://xunitpatterns.com/Inline%20Teardown.html",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Test Harness",
+    "description": "",
+    "referenceUrl": "https://www.javatpoint.com/what-is-test-harness",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Add ExpectedException",
+    "description": "",
+    "referenceUrl": "https://www.javatpoint.com/what-is-test-harness",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
+  },
+  {
+    "name": "Change from AssertEquals to AssertSame",
+    "description": "",
+    "referenceUrl": "https://junit.org/junit4/javadoc/4.8/org/junit/Assert.html#assertSame(java.lang.Object,%20java.lang.Object):~:text=compare%20to%20expected-,assertSame,-public%20static%20void",
+    "before": {
+        "removed codes": {
+          "description": "Code fragments to be removed",
+          "type": "CodeFragment",
+          "multiple": true
+        }
+      },
+    "after": {
+        "added codes": {
+            "description": "Code fragments which were added",
+            "type": "CodeFragment",
+            "multiple": true
+        }
+    }
   }
-}
-    
 ]
+
+    
+
