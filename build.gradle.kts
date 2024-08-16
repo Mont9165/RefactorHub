@@ -37,12 +37,16 @@ dependencies {
     implementation("io.ktor:ktor-jackson:${Versions.ktor}")
 
     // DI
-    implementation("org.koin:koin-ktor:${Versions.koin}")
+    // implementation("org.koin:koin-ktor:${Versions.koin}")
+    implementation("io.insert-koin:koin-ktor:${Versions.koin}")
 
     // DB
-    implementation("org.jetbrains.exposed:exposed-core:${Versions.exposed}")
-    implementation("org.jetbrains.exposed:exposed-dao:${Versions.exposed}")
-    implementation("org.jetbrains.exposed:exposed-jdbc:${Versions.exposed}")
+    // implementation("org.jetbrains.exposed:exposed-core:${Versions.exposed}")
+    implementation("org.jetbrains.exposed:exposed-core:0.32.1")
+    // implementation("org.jetbrains.exposed:exposed-dao:${Versions.exposed}")
+    implementation("org.jetbrains.exposed:exposed-dao:0.32.1")
+    // implementation("org.jetbrains.exposed:exposed-jdbc:${Versions.exposed}")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.32.1")
     implementation("com.zaxxer:HikariCP:${Versions.hikaricp}")
     implementation("org.flywaydb:flyway-core:${Versions.flyway}")
     implementation("org.postgresql:postgresql:${Versions.postgresql}")
