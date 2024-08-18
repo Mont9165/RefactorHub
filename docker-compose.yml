@@ -1,10 +1,15 @@
 version: "3"
 services:
-  app:
-    build: ./
+  frontend:
+    build: 
+      context: ./ 
+      dockerfile: client/Dockerfile
     restart: always
     ports:
-      - 8080:8080
+      - 3000:3000
+  backend:
+    build: ./
+    restart: always
     environment:
       CLIENT_ID: $CLIENT_ID
       CLIENT_SECRET: $CLIENT_SECRET
@@ -17,8 +22,6 @@ services:
 
   db:
     image: postgres:12
-    ports:
-      - 5433:5432
     environment:
       POSTGRES_DB: refactorhub
       POSTGRES_USER: rhuser
