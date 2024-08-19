@@ -12,4 +12,4 @@ RUN npm run generate:with-api
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]

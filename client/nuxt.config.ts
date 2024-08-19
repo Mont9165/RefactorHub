@@ -49,8 +49,8 @@ export default defineNuxtConfig({
     plugins: [monacoEditorPlugin({})],
     server: {
       proxy: {
-        '/api': process.env.API_URL || 'http://localhost:8080',
-        '/login': 'http://localhost:8080',
+        '/api': process.env.API_URL || 'http://backend:8080',
+        '/login': 'http://backend:8080',
       },
     },
   },

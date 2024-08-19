@@ -17,6 +17,8 @@ services:
       APP_ENV: ${APP_ENV:-}
       LOG_ACTION: ${LOG_ACTION:-}
       DATABASE_URL: postgres://rhuser:rhpass@db:5432/refactorhub
+    ports:
+      - 8080:8080
     depends_on:
       - db
 
