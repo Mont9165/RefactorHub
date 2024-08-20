@@ -10,7 +10,7 @@ object Versions {
     const val cli = "0.3.2"
     const val ktor = "1.5.1"
     const val koin = "2.2.3"
-    const val exposed = "0.28.1"
+    const val exposed = "0.32.1"
     const val hikaricp = "3.4.5"
     const val flyway = "7.7.0"
     const val postgresql = "42.2.18"
