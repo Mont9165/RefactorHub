@@ -1,7 +1,7 @@
 object Versions {
     // plugin
-    // const val kotlin = "1.4.30"
-    const val kotlin = "1.9.0"
+    const val kotlin = "1.4.30"
+    // const val kotlin = "1.9.0"
     const val ktlint = "10.0.0"
     const val shadow = "6.1.0"
 
@@ -9,8 +9,8 @@ object Versions {
     const val serialization = "1.0.1"
     const val cli = "0.3.2"
     const val ktor = "1.5.1"
-    const val koin = "2.2.3"
-    const val exposed = "0.32.1"
+    const val koin = "2.2.2"
+    const val exposed = "0.30.1"
     const val hikaricp = "3.4.5"
     const val flyway = "7.7.0"
     const val postgresql = "42.2.18"
