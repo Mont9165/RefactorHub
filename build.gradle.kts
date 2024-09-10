@@ -41,9 +41,9 @@ dependencies {
     implementation("io.insert-koin:koin-ktor:${Versions.koin}")
 
     // DB
-     implementation("org.jetbrains.exposed:exposed-core:${Versions.exposed}")
-     implementation("org.jetbrains.exposed:exposed-dao:${Versions.exposed}")
-     implementation("org.jetbrains.exposed:exposed-jdbc:${Versions.exposed}")
+    implementation("org.jetbrains.exposed:exposed-core:${Versions.exposed}")
+    implementation("org.jetbrains.exposed:exposed-dao:${Versions.exposed}")
+    implementation("org.jetbrains.exposed:exposed-jdbc:${Versions.exposed}")
     implementation("com.zaxxer:HikariCP:${Versions.hikaricp}")
     implementation("org.flywaydb:flyway-core:${Versions.flyway}")
     implementation("org.postgresql:postgresql:${Versions.postgresql}")
