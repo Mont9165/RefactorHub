@@ -37,8 +37,7 @@ dependencies {
     implementation("io.ktor:ktor-jackson:${Versions.ktor}")
 
     // DI
-    implementation("org.koin:koin-ktor:${Versions.koin}")
-
+    implementation("io.insert-koin:koin-ktor:${Versions.koin}")
     // DB
     implementation("org.jetbrains.exposed:exposed-core:${Versions.exposed}")
     implementation("org.jetbrains.exposed:exposed-dao:${Versions.exposed}")
