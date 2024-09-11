@@ -3,6 +3,7 @@
 ![logo](/client/src/public/logo.png)
 
 RefactorHub is a commit annotator for refactoring.
+This branch is devlopment.
 
 ## How to Run
 
