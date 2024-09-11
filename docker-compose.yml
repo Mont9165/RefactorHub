@@ -18,8 +18,14 @@ services:
   db:
     image: postgres:12
     ports:
-      - 5432:5432
+      - 5433:5432
     environment:
       POSTGRES_DB: refactorhub
       POSTGRES_USER: rhuser
       POSTGRES_PASSWORD: rhpass
+    volumes:
+      - refactorhub_volume:/var/lib/postgresql/data
+
+volumes:
+  refactorhub_volume:
+    driver: local
