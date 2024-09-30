@@ -26,7 +26,7 @@
     "tags": [],
     "before": {},
     "after": {}
-  },  
+  },
   {
     "name": "Extract Method",
     "description": "Extracting a code fragment from existing method, and creating a new method based on the extracted code in the same class",
@@ -1238,6 +1238,177 @@
       },
       "target method": {
         "type": "MethodDeclaration"
+      }
+    }
+  },
+  {
+    "name": "Mock Object",
+    "description": "A Mock Object is a fake version of a real object used in testing to simulate its behavior. It helps you test a specific piece of code without relying on other parts of the system, like databases or APIs. You can program the mock to return specific values or behave in a controlled way. This lets you focus on testing just the functionality of the code you are working on, making tests more reliable and faster since you're not depending on external systems.",
+    "referenceUrl": "http://xunitpatterns.com/Mock%20Object.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Testcase SuperClass",
+    "description": "A Testcase Superclass is a parent class that contains shared test setup, teardown methods, or common utility methods used by multiple test classes. By defining these common operations in a superclass, you can avoid code duplication across different test cases. Each subclass (or individual test class) inherits these methods, making the tests easier to maintain and reducing redundancy. This approach simplifies test management when multiple test cases require similar initializations or helper functions, leading to cleaner and more organized test code.",
+    "referenceUrl": "http://xunitpatterns.com/Testcase%20Superclass.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Custom Assertion",
+    "description": "A Custom Assertion is a specialized test method that checks complex conditions or multiple related checks in a single call. Instead of repeating similar assertions across multiple tests, you create a custom method to perform those checks, simplifying test code and improving readability. This approach ensures that the tests remain clear and maintainable, and any changes to the assertion logic can be updated in one place. It also allows for better error messages tailored to specific conditions, enhancing debugging.",
+    "referenceUrl": "http://xunitpatterns.com/Custom%20Assertion.html#Verification%20Method",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Creation Method",
+    "description": "Using a creation method to handle setup logic, allowing the refactoring of fixture setup code for better reusability and clarity. This reduces duplication across tests and makes setup processes more maintainable.",
+    "referenceUrl": "http://xunitpatterns.com/Creation%20Method.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Implicit Setup",
+    "description": "A setup method is one marked with @Before or @BeforeClass, which runs before each test method to handle fixture setup. This is called Implicit Setup, as the setup occurs automatically. In unit tests using the Enclosed test runner, implicit setup is beneficial because it clarifies the test group's preconditions and improves test structure, making it easier to understand what conditions the tests depend on.",
+    "referenceUrl": "http://xunitpatterns.com/Implicit%20Setup.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "SuiteFixture Setup",
+    "description": "A setup method is one marked with @Before or @BeforeClass, which runs before each test method to handle fixture setup. This is called Implicit Setup, as the setup occurs automatically. In unit tests using the Enclosed test runner, implicit setup is beneficial because it clarifies the test group's preconditions and improves test structure, making it easier to understand what conditions the tests depend on.",
+    "referenceUrl": "http://xunitpatterns.com/Implicit%20Setup.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Inline Setup",
+    "description": "Inline Setup is a test pattern where setup code is placed directly inside each test method. It keeps the setup and test logic together, making it easier to understand small, specific tests.",
+    "referenceUrl": "http://xunitpatterns.com/Inline%20Setup.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Cleanup Method",
+    "description": "A Cleanup Method is used to release resources that might remain allocated after a test ends, such as files, database connections, or network sockets. It runs during the teardown phase to ensure that the test environment is restored to its original state. Unlike typical teardown methods that run implicitly, Cleanup Methods are explicitly defined to handle complex resource cleanup. This prevents resource leaks and ensures that subsequent tests run in a clean environment, improving test reliability and maintainability. ",
+    "referenceUrl": "http://xunitpatterns.com/Test%20Utility%20Method.html#:~:text=Variation%3A%20Cleanup%20Method,discussion%20and%20examples",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    }
+  },
+  {
+    "name": "Test Helper",
+    "description": "The Test Helper is a pattern designed to simplify and make test code reusable. It is primarily used to consolidate utility methods and logic that are commonly shared across multiple test case classes.",
+    "referenceUrl": "http://xunitpatterns.com/Test%20Helper.html",
+    "before": {
+      "removed codes": {
+        "description": "Code fragments to be removed",
+        "type": "CodeFragment",
+        "multiple": true
+      }
+    },
+    "after": {
+      "added codes": {
+        "description": "Code fragments which were added",
+        "type": "CodeFragment",
+        "multiple": true
       }
     }
   }
