@@ -33,7 +33,7 @@ private fun createTables() {
 private fun createInitialData() {
     val adminDao = createAdmin()
     createChangeTypes(adminDao)
-    // createTutorial(adminDao)
+    createTutorial(adminDao)
     createExperiments(adminDao)
 }
 

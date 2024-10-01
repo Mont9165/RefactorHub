@@ -33,7 +33,7 @@
 {"sha": "f58f1304882a7d74be3b96ef8bd81f406e2fb3e7", "owner": "tdesjardins", "repository": "gwt-ol"}
 {"sha": "932c817f63f454635d991251b83c62d1d7adf681", "owner": "exadel-inc", "repository": "etoolbox-authoring-kit"}
 {"sha": "66e62c6a688feb6ed01b0742d765ca46b9ab191f", "owner": "kousen", "repository": "java_latest"}
-{"sha": "f649e3063f2719a03982a25d879b9a5f7d022fe6", "owner": "linux-china", "repository": "chatgpt-spring-boot-starter"}
+{"sha": "688fd0a7b946ad91db26fd6d8e4d310a9ee7070b", "owner": "yegor256", "repository": "takes"}
 {"sha": "afaeb4d9d11fa1c4ff3ef07e74f5ecb148f202ba", "owner": "digital-preservation", "repository": "droid"}
 {"sha": "e1df6937172efce7d7af4904b8d1f419c33d6b39", "owner": "datastrato", "repository": "gravitino"}
 {"sha": "c524898c0369321c418e5468d025f95a0bdf82ec", "owner": "jhunters", "repository": "jprotobuf"}
@@ -52,8 +52,8 @@
 {"sha": "35e0df59db72e90cce5f3488b2057c3e92e9b37a", "owner": "pixelexperience", "repository": "frameworks_base"}
 {"sha": "368ccd8134c495b4778fea6ea7e2deb8e76086fe", "owner": "spoonlabs", "repository": "astor"}
 {"sha": "99e12731b8e1cf3007aa4b48b7a2a9b7356fa10d", "owner": "tink-crypto", "repository": "tink"}
-{"sha": "73afb9c01aad6fef86c22aee9b1ea08917182c0e", "owner": "pixelexperience", "repository": "frameworks_base"}
-{"sha": "ef01463d3a5d1bd5066eff3d6f25980a8fc05d28", "owner": "camunda", "repository": "zeebe"}
+{"sha": "93bfe876883757838d27e456572cca6fbce7a4ec", "owner": "nitorcreations", "repository": "nflow"}
+{"sha": "97342dccd0cac52de81953af00035a19d363c001", "owner": "eclipse", "repository": "jkube"}
 {"sha": "955a1fba03d0b331f0b63f9dc44ee981ee2c2b6d", "owner": "camunda", "repository": "zeebe"}
 {"sha": "979aeecc73b0a5c2a71424d7cac31fed19700882", "owner": "cassandre-tech", "repository": "cassandre-trading-bot"}
 {"sha": "d94d8373cad454f25450c2cfd9812d74d32d342e", "owner": "tinylog-org", "repository": "tinylog"}
@@ -168,11 +168,11 @@
 {"sha": "1799a94cb220269fe9af056eee4309748049de34", "owner": "mikera", "repository": "vectorz"}
 {"sha": "73d3d7301e2e5339a2bd399c87b059e61ae2f7d7", "owner": "swagger-api", "repository": "swagger-parser"}
 {"sha": "44fa7b0ca02eafe02e96d48560769cd39af4f73b", "owner": "carrot2", "repository": "carrot2"}
-{"sha": "0a2d352983bfae3072af3f90fb565659031c3e47", "owner": "camunda", "repository": "zeebe"}
+{"sha": "6965dd12d1abffdfead96ffcf1433b7749b1ff98", "owner": "apache", "repository": "sis"}
 {"sha": "f295355a6a5ba4aff3d2f1647fbe8422a77d1a41", "owner": "neo4j", "repository": "neo4j"}
 {"sha": "09b62c951117b8c9e110dd42477256a46fe910d9", "owner": "camunda", "repository": "zeebe"}
 {"sha": "054261fe41a10c71cf5757ca307b52aef92ad915", "owner": "zalando", "repository": "nakadi"}
-{"sha": "6f9a6c40f88d6e18b05ab628eee980867b648b80", "owner": "camunda", "repository": "zeebe"}
+{"sha": "f6736be2ff1d66675d26cc530fc01b4e2ef37f60", "owner": "microsoft", "repository": "hydralab"}
 {"sha": "68fbef0fa1fb09fe94ffe5ff7d40342caca116ef", "owner": "kiegroup", "repository": "droolsjbpm-integration"}
 {"sha": "176882fc20bfde7d9a769fe7ee07e5d3e3949951", "owner": "linkedin", "repository": "parseq"}
 {"sha": "2102caf1040ded549c1978644e1ad158662e188d", "owner": "arianne", "repository": "stendhal"}

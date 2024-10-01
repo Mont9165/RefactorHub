@@ -23,7 +23,7 @@
 {"sha": "dfe9401b13ff55ae9e523f3194b08930b41bb768", "owner": "arnaudroger", "repository": "simpleflatmapper"}
 {"sha": "d0e7d89a8ecd43b0cb1280916a11921613b84dae", "owner": "authzforce", "repository": "core"}
 {"sha": "20351c7f6fc61a453fd9d956205df0eb712af15b", "owner": "flightstats", "repository": "hub"}
-{"sha": "8b8220cd4a1f413cfcd1ffebd7c1c5b2e14515d5", "owner": "camunda", "repository": "zeebe"}
+{"sha": "c400d408b87ea6c5adac21f9ab295089e1716687", "owner": "camunda", "repository": "zeebe"}
 {"sha": "73ae6921db4290308af02c5f2e08049781049ada", "owner": "tink-crypto", "repository": "tink"}
 {"sha": "e717cec25bc68012a8746224d8be99bd1ba13485", "owner": "swagger-api", "repository": "swagger-inflector"}
 {"sha": "5edcff5e9eb449503104721c4bbdab82ae0107a1", "owner": "C2SP", "repository": "wycheproof"}
@@ -123,13 +123,13 @@
 {"sha": "686c8abc7792e4519311188771bced8748a4c824", "owner": "blackducksoftware", "repository": "synopsys-detect"}
 {"sha": "71f278e80f7c03628230b8d5b16d3b4cf8154ebc", "owner": "bmwcarit", "repository": "joynr"}
 {"sha": "ef1e5e6553e0695f468f644cb54dab6f8675f994", "owner": "camunda", "repository": "zeebe"}
-{"sha": "ec64f288d3727a10a2f3a4a1bf9bb4b2c0b79f51", "owner": "camunda", "repository": "zeebe"}
+{"sha": "730abe93f6b064e8a9998a9324f3ccdfda869c01", "owner": "virtualsatellite", "repository": "virtualsatellite4-core"}
 {"sha": "90e03b96a2197aa039e8b081b42ec44e12b3755e", "owner": "mangstadt", "repository": "biweekly"}
 {"sha": "913e5da2f51641eff463d0ee01ddefc61a5acf34", "owner": "briar", "repository": "briar"}
 {"sha": "95434882fd90cedc75aece11196c71885e2fe102", "owner": "tencent", "repository": "tencentkona-11"}
 {"sha": "5be8885c99fe58faed5a9eb276df0215413add90", "owner": "alluxio", "repository": "alluxio"}
 {"sha": "ca5fdffb1ab659adbe474ff45b47cad6ed4aec11", "owner": "C2SP", "repository": "wycheproof"}
-{"sha": "db7d11c921716e12bb3a9937f06957c8cbc24cf7", "owner": "camunda", "repository": "zeebe"}
+{"sha": "8022c76068e5ee8081348df8ea5cc8dd61168b81", "owner": "syndesisio", "repository": "syndesis"}
 {"sha": "f3ed97565209b9c5a2ed65a5c0d687e2ac59c698", "owner": "jenkinsci", "repository": "subversion-plugin"}
 {"sha": "57bfa5046b66cc6a2532d475b859fdb9a9ad8b65", "owner": "camunda", "repository": "zeebe"}
 {"sha": "6548859be81b8925da3cb2e507c1f1089b1ae40b", "owner": "camunda", "repository": "zeebe"}
